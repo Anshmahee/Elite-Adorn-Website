@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Adorn</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url("https://i.pinimg.com/474x/09/8c/8d/098c8d6bf140239e31a7b0e2b2f2f942.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #f8e5e5;
+            padding: 20px 0;
+            text-align: center;
+        }
+        h1 {
+            color: #d14d72;
+            font-size: 2.5em;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #d14d72;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #b03e5d;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <h1>Elite Adorn</h1>
+/* Navbar Logo */
+header h1 {
+    color: #F8C8DC; /* Light pastel pink */
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    align-content: center;
+}
+h1 {
+    font-size: 3rem; /* Adjusts the size of the main title */
+    margin-bottom: 20px; /* Adds space below the heading */
+}
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#benefits">Why Choose Us?</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#faqs">FAQs</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <h2>Adorn Yourself with the Elite Touch.</h2>
+        <p>Discover our latest collection of stylish sunglasses, elegant watches, luxurious handbags, and exquisite jewelry.</p>
+        <button>Shop Now</button>
+    </section>
+
+</body>
+</html>
+
+
+        header {
+            background-color: #f8e5e5;
+            padding: 20px 0;
+            text-align: center;
+        }
+        h1 {
+            color: #d14d72;
+            font-size: 2.5em;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #d14d72;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #b03e5d;
+        }
+        #hero {
+            background-color: #f8c6d7;
+            padding: 100px 20px;
+            text-align: center;
+            background-image: url('https://example.com/hero-image.jpg');
+            background-size: cover;
+            color: #5d2a44;
+            border-radius: 8px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        #hero h2 {
+            font-size: 3em;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #5d2a44;
+        }
+        #hero p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            color: #5d2a44;
+        }
+        #hero button {
+            padding: 12px 24px;
+            font-size: 1.1em;
+            background-color: #d14d72;
+            color: white;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        #hero button:hover {
+            background-color: #d67d95;
+        }
+        #products {
+            /* Center the "Our Products" heading */
+.product-heading {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.product-heading h2 {
+    color: #d14d72;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+            background-color: #fbf0f0;
+        }
+        .product {
+            width: 22%;
+            text-align: center;
+            margin-bottom: 20px;
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .product img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .product h3 {
+            color: #d14d72;
+            font-size: 1.3em;
+            margin: 10px 0;
+        }
+        .product p {
+            color: #555;
+            font-size: 1.2em;
+            margin: 5px 0;
+        }
+        .product button {
+            padding: 8px 16px;
+            background-color: #d14d72;
+            color: white;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .product button:hover {
+            background-color: #b03e5d;
+        }
+        .cart-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+        }
+        .cart-content {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            width: 300px;
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .cart-content h3 {
+            margin-bottom: 20px;
+            color: #d14d72;
+        }
+        .cart-content p {
+            font-size: 1.2em;
+        }
+        .cart-content ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .cart-content li {
+            margin-bottom: 10px;
+        }
+        .close-cart {
+            background-color: #d14d72;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 30px;
+            margin-top: 20px;
+        }
+        .close-cart:hover {
+            background-color: #b03e5d;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Elite Adorn</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#benefits">Why Choose Us?</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Adorn Yourself with the Elite Touch.</h2>
+        <p>Discover our latest collection of stylish sunglasses, elegant watches, luxurious handbags, and exquisite jewelry.</p>
+        <button onclick="openCart()">Shop Now</button>
+    </section>
+    
+    <main>
+        <section id="products">
+            <div class="product">
+                <img src="https://down-sg.img.susercontent.com/file/sg-11134207-7rdyo-lxp0swg3895432" alt="Sunglasses">
+                <h3>Stylish Sunglasses</h3>
+                <p>450 SR</p>
+                <button onclick="addToCart('Stylish Sunglasses', 450)">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="https://down-my.img.susercontent.com/file/f7e38d1271750c427dc4d7e948b0fb90" alt="Wristwatch">
+                <h3>Elegant Wristwatch</h3>
+                <p>775 SR</p>
+                <button onclick="addToCart('Elegant Wristwatch', 775)">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="https://ae01.alicdn.com/kf/S23fe399ee84e4ae1a05d88df7eb421d7G.jpg" alt="Handbag">
+                <h3>Luxury Handbag</h3>
+                <p>670 SR</p>
+                <button onclick="addToCart('Luxury Handbag', 670)">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="https://www.annabellagio.com/cdn/shop/products/AnjaCubicZirconiaNecklaceModelClose-up.jpg?v=1611688328" alt="Necklace">
+                <h3>Elegant Necklace</h3>
+                <p>999 SR</p>
+                <button onclick="addToCart('Elegant Necklace', 999)">Add to Cart</button>
+            </div>
+        </section>
+
+        <section id="benefits" class="section-box">
+            <h2>Why Choose Us?</h2>
+            <ul>
+                <li>✨ Trendy & Premium Accessories</li>
+                <li>🚀 Fast & Reliable Shipping</li>
+                <li>💰 Affordable Prices</li>
+                <li>🛡️ Safe & Easy Payments</li>
+            </ul>
+        </section>
+
+        <section id="reviews" class="section-box">
+            <h2>What Our Customers Say</h2>
+            <div class="review">
+                <p>"The best accessories I've ever bought! The quality is amazing!" - <strong>Sarah L.</strong></p>
+            </div>
+            <div class="review">
+                <p>"Super stylish and affordable. I get compliments all the time!" - <strong>Jason M.</strong></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="section-box">
+        <p>&copy; 2025 Elite Adorn</p>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: info@eliteadorn.com</p>
+            <p>Follow us on
+                <a href="#"><i class="fab fa-instagram social-icon"></i></a> |
+                Join us on <a href="#"><i class="fab fa-twitter social-icon"></i></a>
+            </p>
+        </section>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+.faq {
+    margin-bottom: 15px;
+}
+
+.faq-question {
+    background-color: #f8c6d7;
+    color: #d14d72;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.faq-question:hover {
+    background-color: #524c4d;
+}
+
+.faq-question span {
+    font-size: 20px;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    background-color: #f4d6e0;
+    border-radius: 0 0 8px 8px;
+}
+
+.faq.active .faq-answer {
+    max-height: 1000px; /* Increased max-height to accommodate more content */
+    padding: 15px;
+}
+
+.faq.active .faq-question span {
+    transform: rotate(45deg);
+}
+.icon-instagram::before,
+.icon-twitter::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+        <section id="benefits" class="section-box">
+            <h2>Why Choose Us?</h2>
+            <ul>
+                <li>✨ Trendy & Premium Accessories</li>
+                <li>🚀 Fast & Reliable Shipping</li>
+                <li>💰 Affordable Prices</li>
+                <li>🛡️ Safe & Easy Payments</li>
+            </ul>
+        </section>
+
+        <section id="reviews" class="section-box">
+            <h2>What Our Customers Say</h2>
+            <div class="review">
+                <p>"The best accessories I've ever bought! The quality is amazing!" - <strong>Sarah L.</strong></p>
+            </div>
+            <div class="review">
+                <p>"Super stylish and affordable. I get compliments all the time!" - <strong>Jason M.</strong></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="section-box">
+        <p>&copy; 2025 Elite Adorn</p>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: info@eliteadorn.com</p>
+            <p>Follow us on
+                <a href="#"><i class="fab fa-instagram social-icon"></i></a>
+                <a href="#"><i class="fab fa-twitter social-icon"></i></a>
+                <a href="#"><i class="fab fa-facebook social-icon"></i></a>
+            </p>
+        </section>
+    </footer>
+
+    <div class="cart-overlay" id="cartOverlay">
+        <div class="cart-content">
+            <h3>Your Cart</h3>
+            <ul id="cartItems"></ul>
+            <p>Total: <span id="totalAmount">0</span> SR</p>
+            <button class="close-cart" onclick="closeCart()">Close</button>
+        </div>
+    </div>
+
+    <script>
+        const cart = [];
+        let total = 0;
+
+        function addToCart(item, price) {
+            cart.push({ item, price });
+            total += price;
+            updateCart();
+        }
+
+        function updateCart() {
+            const cartItems = document.getElementById("cartItems");
+            const totalAmount = document.getElementById("totalAmount");
+
+            cartItems.innerHTML = "";
+            cart.forEach(product => {
+                const li = document.createElement("li");
+                li.textContent = ${product.item} - ${product.price} SR;
+                cartItems.appendChild(li);
+            });
+
+            totalAmount.textContent = total;
+        }
+
+        function openCart() {
+            document.getElementById("cartOverlay").style.display = "flex";
+        }
+
+        function closeCart() {
+            document.getElementById("cartOverlay").style.display = "none";
+        }
+    </script>
+
+</body>
+</html>
+
+/* Improved Aesthetic Styling */
+
+body {
+    font-family: 'Playfair Display', serif; /* Elegant font choice */
+    background-color: #f9f9f9;
+  }
+  
+  button {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    background: linear-gradient(135deg, #ff57ae, #ef8dc1; /* Elegant gold gradient */
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background: linear-gradient(135deg, #ff57ae, #ef8dc1);
+    transform: scale(1.05);
+  }
+  
+  .product-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .product-description {
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+  }
+  

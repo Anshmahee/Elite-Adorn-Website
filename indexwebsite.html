@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Adorn</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <h1>Elite Adorn</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#benefits">Why Choose Us?</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#faqs">FAQs</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <h2>Adorn Yourself with the Elite Touch.</h2>
+        <p>Discover our latest collection of stylish sunglasses, elegant watches, luxurious handbags, and exquisite jewelry.</p>
+        <button>Shop Now</button>
+    </section> 
+           
+    <main>
+        <!-- Product Section -->
+        <section id="products">
+            <div class="product-heading">
+                <h2>Our Products</h2> <!-- This will be centered -->
+            </div>
+
+            <div class="product" id="product1">
+                <img src="https://down-sg.img.susercontent.com/file/sg-11134207-7rdyo-lxp0swg3895432" alt="Sunglasses">
+                <h3>Stylish Sunglasses</h3>
+                <p>450 SR</p>
+                <button onclick="addToCart('Stylish Sunglasses')">Add to Cart</button>
+            </div>
+
+            <div class="product" id="product2">
+                <img src="https://down-my.img.susercontent.com/file/f7e38d1271750c427dc4d7e948b0fb90" alt="Wristwatch">
+                <h3>Elegant Wristwatch</h3>
+                <p>775 SR</p>
+                <button onclick="addToCart('Elegant Wristwatch')">Add to Cart</button>
+            </div>
+
+            <div class="product" id="product3">
+                <img src="https://i.pinimg.com/474x/dc/8a/df/dc8adf7d14bfd6087dd0a00e7500292a.jpg" alt="Handbag">
+                <h3>Luxury Handbag</h3>
+                <p>670 SR</p>
+                <button onclick="addToCart('Luxury Handbag')">Add to Cart</button>
+            </div>
+
+            <div class="product" id="product4">
+                <img src="https://www.annabellagio.com/cdn/shop/products/AnjaCubicZirconiaNecklaceModelClose-up.jpg?v=1611688328" alt="Necklace">
+                <h3>Elegant Necklace</h3>
+                <p>850 SR</p>
+                <button onclick="addToCart('Elegant Necklace')">Add to Cart</button>
+            </div>
+
+        </section>
+
+        <!-- Benefits Section -->
+        <section id="benefits">
+            <h2>Customer Reviews</h2>
+            <div class="faq-container">
+                <div class="faq">
+                    <button class="faq-question">What Our Customers Say <span>+</span></button>
+                    <div class="faq-answer">
+                        <p>✨ Trendy & Premium Accessories<br>
+                            🚀 Fast & Reliable Shipping<br>
+                            💰 Affordable Prices<br>
+                            🛡️ Safe & Easy Payments</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faqs">
+            <div class="faq">
+                <button class="faq-question">What is your return policy? <span>+</span></button>
+                <div class="faq-answer">
+                    <p>We offer a 25-day return policy. Items must be unused and in original packaging.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const faqQuestions = document.querySelectorAll('.faq-question');
+        
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', () => {
+                    const faq = question.parentElement;
+                    faq.classList.toggle('active');
+                });
+            });
+        });
+    </script>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Elite Adorn</p>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>+966 564365478</p>
+            <p>Email: info@eliteadorn.com</p>
+            <p>Follow us on
+                <a href="#" class="icon-instagram"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" alt="Instagram"></a> |
+                Join us on <a href="#" class="icon-twitter"><img src="https://i.pinimg.com/736x/83/97/12/8397123f1ad4c5c4ab2e3873eea9b3dd.jpg" alt="Twitter"></a>
+            </p>
+        </section>
+    </footer>
+
+    <style>
+        footer {
+            background-color: #f8e5e5;
+            padding: 20px;
+            text-align: center;
+        }
+        #contact {
+            margin: 20px;
+            vertical-align: middle;
+        }
+        .icon-instagram img,
+        .icon-twitter img {
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+        }
+    </style>
+</body>
+</html>
